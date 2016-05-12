@@ -23,7 +23,7 @@
     "require": {
         "php": ">=5.5.0",
         "desarrolla2/cache": "^2.0.0",
-        "5818959/validation-result": "dev-master"
+        "5818959/validation-result": ">=1.1.1"
     },
     "require-dev": {
         "codeception/codeception": "^2.1.0",
