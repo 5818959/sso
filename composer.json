@@ -1,24 +1,29 @@
 {
-    "name": "jasny/sso",
-    "description": "Simple Single Sign-On",
+    "name": "5818959/sso",
+    "description": "Fork of Arnold Daniels Simple Single Sign-On worked on PHP 5.5",
     "keywords": ["sso", "auth"],
     "license": "MIT",
     "homepage": "http://www.jasny.net/articles/simple-single-sign-on-for-php/",
     "authors": [
         {
-            "name": "Arnold Daniels",
-            "email": "arnold@jasny.net",
-            "homepage": "http://www.jasny.net"
+            "name": "Sergey S.",
+            "email": "5818959@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/jasny/sso/issues",
-        "source": "https://github.com/jasny/sso"
+        "issues": "https://github.com/5818959/sso/issues",
+        "source": "https://github.com/5818959/sso"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/5818959/validation-result"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "desarrolla2/cache": "^2.0.0",
-        "jasny/validation-result": "^1.0.0"
+        "5818959/validation-result": "dev-master"
     },
     "require-dev": {
         "codeception/codeception": "^2.1.0",
